@@ -1,5 +1,11 @@
 import sys
-clients = ['pablo','ricardo']
+clients = [
+    {
+        'name':'Pablo',
+        'compañia':'Google'
+    }
+
+]
 
 def create_client(client_name):
     global clients
